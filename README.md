@@ -6,7 +6,9 @@
  -1 -2 0
  1 -2 0
  -1 2 0
+ 
  $ python3 dimacs2smtlib.py example.cnf
+ 
  $ cat example.cnf.smt2
  (set-logic QF_UF)
  (declare-fun v_1 () Bool)
